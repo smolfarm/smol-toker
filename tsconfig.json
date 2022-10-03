@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "commonjs",
+      "noImplicitAny": false,
+      "esModuleInterop": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "importHelpers": true,
+      "sourceMap": true,
+      "jsx": "react",
+      "strict": true,
+    },
+    "files": [
+      "./examples/corg-corg/index.ts",
+      "./src/TokenFactory.ts",
+      "./src/CollectionBlueprint.ts"
+    ]
+}
