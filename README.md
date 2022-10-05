@@ -4,8 +4,8 @@ This is the library smol farm uses for assembling NFT collections that use layer
 
 ## Included Examples
 
-* [corgcorg](https://corgcorg.xyz/) - simple design, assets released into public domain (cc0)
-* [Wandering Witches](http://wanderingwitches.xyz/) - copyrighted assets, utilizes advanced metadata features
+* [corgcorg](https://corgcorg.xyz/) - basic script, cc0-ed assets
+* [Wandering Witches](http://wanderingwitches.xyz/) - utilizes advanced metadata features, **copyrighted assets**
 
 ## Features
 
