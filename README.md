@@ -21,7 +21,7 @@ And bam! You'll have a new batch of corgcorg images & JSON!
 ## Features
 
 * Reusable extensions that add standardized functionality.
-* Custom name & description generation by overriding **INamer** and **IDescriber**.
+* Custom name & description generation by implementing **INamer** and **IDescriber**.
 
 ## Included Extensions
 
