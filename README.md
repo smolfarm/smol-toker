@@ -1,6 +1,17 @@
 # smol toker
 
-This is the library smol farm uses for assembling NFT collections that use layers of 2D art. Built by [Thorne](https://github.com/existentialenso).
+MIT License library smol farm uses for assembling NFT collections that use layers of 2D art. Built by [Thorne](https://github.com/existentialenso).
+
+## Get Up and Running
+
+It's simple, just clone the repository on a machine with Node & yarn installed and go:
+
+```bash
+yarn install
+yarn run corg-corg
+```
+
+And bam! You'll have a new batch of corgcorg images & JSON!
 
 ## Included Examples
 
