@@ -4,7 +4,7 @@ MIT License library smol farm uses for assembling NFT collections that use layer
 
 ## Get Up and Running
 
-It's simple, just clone the repository on a machine with Node & yarn installed and go:
+For this to run properly, [GraphicsMagick](http://www.graphicsmagick.org/) must be installed, along with Node. Assuming you also have yarn installed (if not, substitute `yarn` for `npm`), run:
 
 ```bash
 yarn install

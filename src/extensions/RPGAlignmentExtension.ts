@@ -1,5 +1,12 @@
+/**
+ * Extension for automatically adding RPG aligntment to NFT metadata.
+ */
+
 import ICollection from '../interfaces/ICollection'
 
+/**
+ * Good alignments are more likely to appear.
+ */
 const alignments: string[] = [
     "Chaotic Good",
     "Chaotic Good",

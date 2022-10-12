@@ -1,5 +1,12 @@
+/**
+ * JSON metadata-only familiar generation extension. Does not affect image.
+ */
+
 import ICollection from "../../src/interfaces/ICollection"
 
+/**
+ * Familiars appearing multiple times will be more strongly weighted in the metadata.
+ */
 const familiars: string[] = [
     "Cat", "Cat", "Cat", "Cat", "Cat", "Cat", 
     "Cat", "Cat", "Cat", "Cat", "Cat", "Cat", 

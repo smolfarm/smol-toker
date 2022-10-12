@@ -1,3 +1,7 @@
+/**
+ * Extension to automatically assign a Sun, Moon, and Rising sign to each NFT in its metadata
+ */
+
 import ICollection from '../interfaces/ICollection'
 
 const zodiacs: string[] = ["Aries","Taurus","Gemini","Cancer","Leo","Virgo","Libra","Scorpio","Sagittarius","Capricorn","Aquarius","Pisces"]
