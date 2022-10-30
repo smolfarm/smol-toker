@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "corg-corg": "NODE_OPTIONS=\"--loader ts-node/esm\" node ./examples/corg-corg/index.ts",
+    "neonrunners": "NODE_OPTIONS=\"--loader ts-node/esm\" node ./examples/neonrunners/index.ts",
     "wandering-witches": "NODE_OPTIONS=\"--loader ts-node/esm\" node ./examples/wandering-witches/index.ts",
     "assemble-images": "NODE_OPTIONS=\"--loader ts-node/esm\" node ./src/assemble-images.ts"
   },
