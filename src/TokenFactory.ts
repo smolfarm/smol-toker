@@ -199,7 +199,7 @@ export default class TokenFactory {
                 tokenId,
                 name: this.namer.name(tokenId),
                 description: this.describer?.describe(tokenId) || collection.description,
-                image: `ipfs://IPFS_HASH_HERE/${tokenId}`,
+                image: `ipfs://IPFS_HASH_HERE/${tokenId}.png`,
                 externalUrl: collection.externalUrl,
                 attributes,
                 supply

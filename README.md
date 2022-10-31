@@ -17,6 +17,7 @@ And bam! You'll have a new batch of corgcorg images & JSON!
 
 * [corgcorg](https://corgcorg.xyz/) - basic script, cc0-ed assets
 * [Wandering Witches](http://wanderingwitches.xyz/) - utilizes advanced metadata features, **copyrighted assets**
+* neonrunners - small collection of cyberpunk pfps, **copyrighted assets**
 
 ## Features
 

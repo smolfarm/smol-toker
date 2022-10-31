@@ -11,6 +11,10 @@ TokenFactory.describer = new RunnerDescriber()
 
 blueprint.layerPath = "./examples/neonrunners/layers/"
 
+import StatsExtension from './StatsExtension'
+const ext = new StatsExtension()
+ext.addComponents(blueprint)
+
 blueprint.addTsvComponent("Background", 0,
 `RedBG	35
 GreenBG	11

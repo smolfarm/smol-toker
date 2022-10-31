@@ -25,7 +25,8 @@ const alignments: string[] = [
     
     "Chaotic Evil",
     "Neutral Evil",
-    "Lawful Evil"]
+    "Lawful Evil"
+]
 
 export default class RPGAlignmentExtension {
     addComponents(collection: ICollection) {
