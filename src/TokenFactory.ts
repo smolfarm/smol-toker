@@ -96,7 +96,7 @@ export default class TokenFactory {
         let tokenId = collection.startTokenId ?? 0
 
         // TODO - remove custom witch code
-        let reservedNoEarring = .33 * collection.size
+        /*let reservedNoEarring = .33 * collection.size
         let noEarringRemaining = .37 * collection.size
         let reservedNoTattoo = Math.floor(.036 * collection.size)
         let noTattooRemaining = Math.ceil(.436 * collection.size)
@@ -105,7 +105,7 @@ export default class TokenFactory {
             if(components[i].name == "Outfit") {
                 outfitIndex = Number(i)
             }
-        }
+        }*/
 
         for(let i = 0; i<size; i++) {
             let supply: IComponentSupply[] = []
@@ -120,7 +120,7 @@ export default class TokenFactory {
                 let supplySelected = component.supply[supplyIndex]
 
                 // TODO - remove custom witch code
-                if(component.name === "Hair") {
+                /*if(component.name === "Hair") {
                     hair = component.supply[supplyIndex].name
                 } else if(component.name === "Ear Accessory") {
                     let noEarrings = false
@@ -179,19 +179,19 @@ export default class TokenFactory {
                 } else if(component.name === "Outfit") {
                     supplyIndex = preselectOutfit
                     supplySelected = component.supply[supplyIndex]
-                }
+                }*/
 
                 component.supply = component.supply.slice(0, supplyIndex).concat(component.supply.slice(supplyIndex+1))
 
                 supply.push(supplySelected)
 
                 // TODO - remove custom witch wrapping
-                if(component.name != "Eyebrows" && component.name != "Over Everything") {
+                /*if(component.name != "Eyebrows" && component.name != "Over Everything") {
                     attributes.push({
                         name: component.name,
                         value: supplySelected.name
                     })
-                }
+                }*/
                 
             }
 
